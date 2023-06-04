@@ -1,2 +1,0 @@
-import{d as n}from"./http-4b3419c1.js";import{c as s}from"./cartItemsState-0ef27d27.js";const p=""+new URL("example-product-bbb774cf.jpg",import.meta.url).href,m=()=>{const u=n(({set:d})=>(r,o)=>{d(s,e=>{const c=e.find(t=>t.product.id===r.id)??null;return c===null?[...e,{product:r,quantity:o,unselectedForOrder:!1}]:e.map(t=>t.product.id===c.product.id?{...t,quantity:o}:t)})}),l=n(({set:d})=>r=>{d(s,o=>o.filter(e=>!r.includes(e.product.id)))});return{setQuantity:u,deleteCartItems:l}};export{p as E,m as u};
-//# sourceMappingURL=useCartActions-78c65941.js.map
