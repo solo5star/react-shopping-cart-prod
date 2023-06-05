@@ -1,0 +1,2 @@
+import{b as i,c as a}from"./environment-47b79d9e.js";import{s,e as n,c}from"./cartItemsState-a1a9cd9c.js";const u=i({key:"profileQuery",get:({client:e})=>()=>e.get("/profile")}),p=a({key:"userAuthorizationState",get:({get:e})=>{const t=e(s);return e(n(t))},set:({get:e,set:t},r)=>{const o=e(s);t(n(o),r)}}),S=a({key:"userProfileState",get:({get:e})=>{const t=e(c),r=e(p);return{...e(u({client:t})).acceptOrThrow(200).data,username:(r==null?void 0:r.username)??"Anonymous"}}});export{u as p,S as u};
+//# sourceMappingURL=userProfileState-26f81e3d.js.map
